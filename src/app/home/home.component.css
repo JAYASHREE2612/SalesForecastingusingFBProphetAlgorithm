@@ -1,0 +1,156 @@
+.Mainhome{
+    background: hsla(208, 68%, 22%, 0.50) ;
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+    height: 100%;
+}
+.tophome{
+    display: grid;
+    grid-template-columns: auto 0.1fr;
+    background-color: hsla(208, 68%, 22%, 1);
+    height: 60px;
+}
+
+.logoutdiv{
+    position: relative;
+    /* display: flex; */
+    /* grid-template-columns: auto auto; */
+}
+/* .logoutdiv span{
+    position: absolute;
+    left:0px;
+    bottom: 0px;
+} */
+.logoutdiv button{
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
+.tophome p{
+    margin: auto 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* text-align: center; */
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;   
+    /* background: hsla(208, 68%, 22%, 0.50) ; */
+   
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;  
+    color: hsla(400, 59%, 65%, 1); 
+    /* background: hsla(208, 68%, 22%, 0.50) ; */
+   
+}
+.rescontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;  
+    color: hsla(400, 59%, 65%, 1); 
+    
+}
+
+.spinergrid{
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    min-width: 254px;
+}
+.cardgrid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.fileupld{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 20px;
+}
+.fileupld button{
+    height: 30px;
+}
+.selectValue select{
+    width: 100%;
+    height: 30px;
+}
+.preditbutn{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.preditbutn button{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* resultant grid */
+.resgrid{
+    display: grid;
+    /* grid-template-rows: 0.7fr 4fr 0.5fr 0.5fr 0.5fr; */
+    grid-template-rows: 60px auto 50px 50px 50px;;
+    background-color:hsla(208, 68%, 22%, 0.50);
+    text-align: center;
+}
+.resgridhead{
+    display: grid;
+    grid-template-columns: auto auto auto;    
+    color: white;;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.inhead{
+    margin: auto;
+}
+.inhead1{
+    margin: auto;
+}
+.resgridbody{
+    color: #ffffff;
+}
+.resgridbody img{
+    /* width: auto;
+    height: auto;
+    min-height: 250px; */
+    width: 100%;
+    min-width: 360px;
+    height: 20rem;
+    min-height: 250px;
+}
+.accuracyhead{
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: darkorange;
+}
+.accuracygrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    text-align: center;
+    font-size: 1rem;
+    border-bottom: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+    color: chartreuse;
+}
+.accuracygrid div{
+    margin: auto 0;
+}
+::ng-deep .mat-progress-spinner circle, .mat-spinner circle {
+    stroke: #ffffff !important;
+}
